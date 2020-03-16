@@ -1,0 +1,25 @@
+{
+  "name": "FCProgressCircleView",
+  "version": "0.0.1",
+  "summary": "Custom UIView with progress animation.",
+  "description": "Awesome CircleView with progress animation by percentage, written in swift",
+  "homepage": "https://github.com/fernandacarvalho/FCProgressCircleView",
+  "license": "MIT",
+  "authors": {
+    "Fernanda Carvalho": "fkn.fernanda@gmail.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/fernandacarvalho/FCProgressCircleView.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "Classes",
+    "Classes/**/*.{h,m}"
+  ],
+  "exclude_files": "Classes/Exclude",
+  "public_header_files": "Classes/**/*.h",
+  "resources": "Resources/FCProgressCircleView.bundle"
+}

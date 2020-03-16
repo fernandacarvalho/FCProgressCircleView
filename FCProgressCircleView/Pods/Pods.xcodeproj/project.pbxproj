@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		E38399AE8761E3A2053A3BF5051198A2 /* FCProgressCircleView */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 66CDDBC1BBFCF73CF67E8972D7B6C4CC /* Build configuration list for PBXAggregateTarget "FCProgressCircleView" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = FCProgressCircleView;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		15DBB66DD479ED010AFAA14823DEB450 /* Pods-FCProgressCircleViewExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29AB5A7514D447479F46FB223E2E4C8A /* Pods-FCProgressCircleViewExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16F2AF0944F69B0C72BCF95F7570E7D6 /* Pods-FCProgressCircleViewExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 186EFB79D249528E65D544D4C43DF38F /* Pods-FCProgressCircleViewExample-dummy.m */; };
+		2713211E66423D12719F1A1A3355D257 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3E4883F7C910EDDCD24C781B2D979C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E38399AE8761E3A2053A3BF5051198A2;
+			remoteInfo = FCProgressCircleView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12DD58D3B311061F06A45DD775AFB0B9 /* Pods-FCProgressCircleViewExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FCProgressCircleViewExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		186EFB79D249528E65D544D4C43DF38F /* Pods-FCProgressCircleViewExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FCProgressCircleViewExample-dummy.m"; sourceTree = "<group>"; };
+		29AB5A7514D447479F46FB223E2E4C8A /* Pods-FCProgressCircleViewExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FCProgressCircleViewExample-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3C3092419DA5D16DB754958EBDC77FE5 /* FCProgressCircleView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FCProgressCircleView.xcconfig; sourceTree = "<group>"; };
+		4460C72CF7131340A3D5DC3CCFD19E8E /* Pods-FCProgressCircleViewExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FCProgressCircleViewExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		562FB5D1369690D63537ACCF207068C8 /* Pods-FCProgressCircleViewExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FCProgressCircleViewExample-Info.plist"; sourceTree = "<group>"; };
+		684CB92E8B43E6B8FB2B352FE1DC54D6 /* Pods_FCProgressCircleViewExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FCProgressCircleViewExample.framework; path = "Pods-FCProgressCircleViewExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AE82E899E3585C4E4E5E1A9AF4C3456 /* FCProgressCircleView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FCProgressCircleView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E2D7A306666ABD53B8E63A837534EA2D /* Pods-FCProgressCircleViewExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FCProgressCircleViewExample.debug.xcconfig"; sourceTree = "<group>"; };
+		E313E1C3496F7398A5CFFB878F33BAD0 /* Pods-FCProgressCircleViewExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FCProgressCircleViewExample.modulemap"; sourceTree = "<group>"; };
+		E8DDA584C1ED52B19AED9B38C0A9CAA6 /* Pods-FCProgressCircleViewExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FCProgressCircleViewExample.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34A0930E33ACA16BACBAD432E6EB6A44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2713211E66423D12719F1A1A3355D257 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00849E5A5456FD6341241B75E1CEE194 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D148C5852C243C5D3A5013A3229C9371 /* FCProgressCircleView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		436402B7F3C2D5A254DF75850BA633C0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C3092419DA5D16DB754958EBDC77FE5 /* FCProgressCircleView.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/FCProgressCircleView";
+			sourceTree = "<group>";
+		};
+		89819A0153B36E6A82FDAEF230B57481 /* Pods-FCProgressCircleViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				E313E1C3496F7398A5CFFB878F33BAD0 /* Pods-FCProgressCircleViewExample.modulemap */,
+				12DD58D3B311061F06A45DD775AFB0B9 /* Pods-FCProgressCircleViewExample-acknowledgements.markdown */,
+				4460C72CF7131340A3D5DC3CCFD19E8E /* Pods-FCProgressCircleViewExample-acknowledgements.plist */,
+				186EFB79D249528E65D544D4C43DF38F /* Pods-FCProgressCircleViewExample-dummy.m */,
+				562FB5D1369690D63537ACCF207068C8 /* Pods-FCProgressCircleViewExample-Info.plist */,
+				29AB5A7514D447479F46FB223E2E4C8A /* Pods-FCProgressCircleViewExample-umbrella.h */,
+				E2D7A306666ABD53B8E63A837534EA2D /* Pods-FCProgressCircleViewExample.debug.xcconfig */,
+				E8DDA584C1ED52B19AED9B38C0A9CAA6 /* Pods-FCProgressCircleViewExample.release.xcconfig */,
+			);
+			name = "Pods-FCProgressCircleViewExample";
+			path = "Target Support Files/Pods-FCProgressCircleViewExample";
+			sourceTree = "<group>";
+		};
+		976E8E1293F79B7265F64B6E3C0D6B09 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8AE82E899E3585C4E4E5E1A9AF4C3456 /* FCProgressCircleView.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BE75179ADC00AE30D7995F1103A01C63 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				89819A0153B36E6A82FDAEF230B57481 /* Pods-FCProgressCircleViewExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				00849E5A5456FD6341241B75E1CEE194 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D062A3FFCE40515902EDEF4BA99A3B4F /* Products */,
+				BE75179ADC00AE30D7995F1103A01C63 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D062A3FFCE40515902EDEF4BA99A3B4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				684CB92E8B43E6B8FB2B352FE1DC54D6 /* Pods_FCProgressCircleViewExample.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D148C5852C243C5D3A5013A3229C9371 /* FCProgressCircleView */ = {
+			isa = PBXGroup;
+			children = (
+				976E8E1293F79B7265F64B6E3C0D6B09 /* Pod */,
+				436402B7F3C2D5A254DF75850BA633C0 /* Support Files */,
+			);
+			name = FCProgressCircleView;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E1F5D6ACF32F3850A9F22DA80F0FF658 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15DBB66DD479ED010AFAA14823DEB450 /* Pods-FCProgressCircleViewExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1136F797976B1A78467A852C1C10352E /* Pods-FCProgressCircleViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08D80177D4367CFD92B2AEFC124C658D /* Build configuration list for PBXNativeTarget "Pods-FCProgressCircleViewExample" */;
+			buildPhases = (
+				E1F5D6ACF32F3850A9F22DA80F0FF658 /* Headers */,
+				797BB8D0260D6A2145F6FD248EDE2ACB /* Sources */,
+				34A0930E33ACA16BACBAD432E6EB6A44 /* Frameworks */,
+				C48DA5EAF3CA16A133026727D0CA4B8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6D40A83947C7511B8701B16DAA32852 /* PBXTargetDependency */,
+			);
+			name = "Pods-FCProgressCircleViewExample";
+			productName = "Pods-FCProgressCircleViewExample";
+			productReference = 684CB92E8B43E6B8FB2B352FE1DC54D6 /* Pods_FCProgressCircleViewExample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D062A3FFCE40515902EDEF4BA99A3B4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E38399AE8761E3A2053A3BF5051198A2 /* FCProgressCircleView */,
+				1136F797976B1A78467A852C1C10352E /* Pods-FCProgressCircleViewExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C48DA5EAF3CA16A133026727D0CA4B8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		797BB8D0260D6A2145F6FD248EDE2ACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16F2AF0944F69B0C72BCF95F7570E7D6 /* Pods-FCProgressCircleViewExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6D40A83947C7511B8701B16DAA32852 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FCProgressCircleView;
+			target = E38399AE8761E3A2053A3BF5051198A2 /* FCProgressCircleView */;
+			targetProxy = B3E4883F7C910EDDCD24C781B2D979C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		374108859867CF11C80BB116E65B9601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8DDA584C1ED52B19AED9B38C0A9CAA6 /* Pods-FCProgressCircleViewExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FCProgressCircleViewExample/Pods-FCProgressCircleViewExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FCProgressCircleViewExample/Pods-FCProgressCircleViewExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3878A67EE1D0445813751ED12C6D15FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2D7A306666ABD53B8E63A837534EA2D /* Pods-FCProgressCircleViewExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FCProgressCircleViewExample/Pods-FCProgressCircleViewExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FCProgressCircleViewExample/Pods-FCProgressCircleViewExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		659F08D21246F512DE9463AAC02849EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C3092419DA5D16DB754958EBDC77FE5 /* FCProgressCircleView.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B440C1E33C087A62B0E9FE76FCAD8407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C3092419DA5D16DB754958EBDC77FE5 /* FCProgressCircleView.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08D80177D4367CFD92B2AEFC124C658D /* Build configuration list for PBXNativeTarget "Pods-FCProgressCircleViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3878A67EE1D0445813751ED12C6D15FB /* Debug */,
+				374108859867CF11C80BB116E65B9601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
+				ECB437504DF805BD96CAABF97400B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66CDDBC1BBFCF73CF67E8972D7B6C4CC /* Build configuration list for PBXAggregateTarget "FCProgressCircleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				659F08D21246F512DE9463AAC02849EC /* Debug */,
+				B440C1E33C087A62B0E9FE76FCAD8407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

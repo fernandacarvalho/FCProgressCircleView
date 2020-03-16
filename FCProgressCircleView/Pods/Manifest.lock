@@ -1,0 +1,16 @@
+PODS:
+  - FCProgressCircleView (0.0.1)
+
+DEPENDENCIES:
+  - FCProgressCircleView (from `.`)
+
+EXTERNAL SOURCES:
+  FCProgressCircleView:
+    :path: "."
+
+SPEC CHECKSUMS:
+  FCProgressCircleView: fbddea2f3d59c4bd068b9beb075ee2707b48af23
+
+PODFILE CHECKSUM: cc4676b7cd28f9952a5ba29e707b4660a67d5032
+
+COCOAPODS: 1.8.4
